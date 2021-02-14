@@ -585,7 +585,9 @@ p {
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-color: #fbfbfb; }
+  background-color: #fbfbfb; 
+  background-image: url('../images/banner/home-background.png');
+  background-repeat: round;}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-content {
       height: 550px; }
@@ -609,7 +611,8 @@ p {
         font-size: 24px; } }
   .header-content-right .title {
     font-size: 75px;
-    padding-bottom: 15px; }
+    padding-bottom: 15px; 
+    color: white;}
     @media (max-width: 767px) {
       .header-content-right .title {
         font-size: 38px; }
@@ -619,6 +622,7 @@ p {
   .header-content-right p {
     padding-bottom: 40px;
     font-size: 25px;
+    color: whitesmoke;
    }
 
 .header-image {
